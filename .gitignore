@@ -48,7 +48,7 @@ $RECYCLE.BIN/
 .husky/
 
 # Added by Illuminated Cloud
-/IlluminatedCloud/
+/.github/IlluminatedCloud/
 /out/
 target/
 /.illuminatedCloud/

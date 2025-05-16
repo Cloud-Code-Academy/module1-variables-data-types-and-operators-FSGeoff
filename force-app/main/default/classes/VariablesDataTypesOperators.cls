@@ -156,7 +156,7 @@ public with sharing class VariablesDataTypesOperators {
     public static String createSentence(String noun, String verb, String endingPunctuation) {
         String sentence;
 
-        sentence = 'The ' + noun + '  is ' + verb + endingPunctuation;
+        sentence = 'The ' + noun + ' is ' + verb + endingPunctuation;
         return sentence; // Replace null with the variable you used to store the result
     }
 
@@ -173,7 +173,7 @@ public with sharing class VariablesDataTypesOperators {
         Boolean inPast = false;
         Date now = Date.today();
 
-        if( dt > now ) {
+        if( dt < now ) {
             inPast = true;
         }
         return inPast; // Replace null with the variable you used to store the result
