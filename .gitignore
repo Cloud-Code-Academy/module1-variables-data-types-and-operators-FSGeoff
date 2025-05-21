@@ -46,3 +46,11 @@ $RECYCLE.BIN/
 
 .vscode/
 .husky/
+
+# Added by Illuminated Cloud
+/.github/IlluminatedCloud/
+/out/
+target/
+/.illuminatedCloud/
+**/tsconfig*.json
+**/*.tsbuildinfo
